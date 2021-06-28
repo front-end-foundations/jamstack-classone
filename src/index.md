@@ -1,10 +1,9 @@
 ---
 layout: layout.html
 pageTitle: New York Today
+pageClass: home
 ---
 
 ## Articles
 
 <div class="stories">Loading...</div>
-
-<button>Show Stories</button>

@@ -4,9 +4,9 @@
 const key = "uQG4jhIEHKHKm0qMKGcTHqUgAolr1GM0";
 const API = `https://api.nytimes.com/svc/topstories/v2/nyregion.json?api-key=${key}`;
 
-// console.log(API);
+console.log(API);
 
-function getStories(event) {
+function getStories() {
   fetch(API)
     .then((response) => response.json())
     .then((data) => showData(data.results));
